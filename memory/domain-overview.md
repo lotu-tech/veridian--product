@@ -11,7 +11,7 @@ Veridian (branded as CheckMatch) is an investigation and background check platfo
 | search-api | Internal search service — aggregates data from multiple sources | NestJS + BullMQ, internal only (Cloud Map) |
 | veridian--infra | All AWS infrastructure (Terraform) | Terraform, ECS Fargate, Aurora, DocumentDB, Valkey |
 | export-scripts | Data export and document generation utilities | Node.js, docx, exceljs |
-| oab-api | OAB (Brazilian Bar Association) data service | (empty/new) |
+| oab-api | OAB (Brazilian Bar Association) lawyer-to-lawsuit lookup service — receives OAB number, returns associated processes | NestJS + TypeScript |
 
 ## Infrastructure
 
